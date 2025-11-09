@@ -1,4 +1,4 @@
-# Express Request Validator
+# Express Request Schema Validator
 
 A flexible Express.js middleware for validating request bodies, query parameters, and headers using JSON Schema (powered by AJV).
 
@@ -14,7 +14,7 @@ A flexible Express.js middleware for validating request bodies, query parameters
 ## Installation
 
 ```bash
-npm install express-request-validator
+npm install express-request-schema-validator
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install express-request-validator
 
 ```javascript
 const express = require("express");
-const { createMiddleware } = require("express-request-validator");
+const { createMiddleware } = require("express-request-schema-validator");
 
 const app = express();
 app.use(express.json());
@@ -51,7 +51,7 @@ app.listen(3000);
 
 ```javascript
 import express from "express";
-import { createMiddleware } from "express-request-validator";
+import { createMiddleware } from "express-request-schema-validator";
 
 const app = express();
 app.use(express.json());
@@ -79,7 +79,7 @@ app.listen(3000);
 
 ```typescript
 import express, { Request, Response } from "express";
-import { createMiddleware } from "express-request-validator";
+import { createMiddleware } from "express-request-schema-validator";
 
 const app = express();
 app.use(express.json());
