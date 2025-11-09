@@ -1,7 +1,7 @@
 {
   "name": "express-request-schema-validator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A flexible Express.js middleware for validating request bodies, query parameters, and headers using JSON Schema",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
